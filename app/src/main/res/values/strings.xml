@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Meli</string>
     <string name="action_settings">Settings</string>
+    <string name="todo">TODO</string>
+    <string name="free_shipping">Envío gratis</string>
+    <string name="currency">$%1$.2f</string>
+    <string name="description">Descripción</string>
 </resources>
