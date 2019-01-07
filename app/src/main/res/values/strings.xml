@@ -5,4 +5,7 @@
     <string name="free_shipping">Envío gratis</string>
     <string name="currency">$%1$.2f</string>
     <string name="description">Descripción</string>
+    <string name="error_connection">¡Parece que no hay internet!\nRevisa tu conexión para seguir navegando</string>
+    <string name="retry">Reintentar</string>
+    <string name="no_results">Lo sentimos pero no existen resultados para esta busqueda</string>
 </resources>

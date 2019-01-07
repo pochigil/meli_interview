@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_color"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/item_padding">
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/history" />
+
+    <TextView
+        android:id="@+id/queryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/separator_margin"
+        android:layout_marginLeft="@dimen/separator_margin"
+        android:textColor="@color/typography_color"
+        android:textSize="@dimen/title_size" />
+
+</LinearLayout>

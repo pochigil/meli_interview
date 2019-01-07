@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/connectionLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_color"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/separator_margin"
+    android:visibility="gone">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/cloud" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/error_connection"
+        android:textColor="@color/hint_color"
+        android:textSize="@dimen/title_size" />
+
+    <TextView
+        android:id="@+id/retryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/retry"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/title_size" />
+
+</LinearLayout>
